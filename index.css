@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+}
+
+#map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+}
+
+#maskCanvas {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 10px;
+    width: 70%;
+    height: 80%;
+    vertical-align: top;
+}
+
+.pagination > li {
+    display: inline;
+    margin-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid #333333;
+}
+
+td {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#over_map_date {
+    position: absolute;
+    display: inline-block;
+    bottom: 50px;
+    /*
+    width: 200px;
+    height: 100px;
+    */
+    padding-right: 2px;
+    padding-left: 2px;
+    z-index: 90;
+    pointer-events: none;
+}
+
+#over_map {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    opacity: 0.5;
+    background-color: #dddddd;
+    /*
+    width: 200px;
+    height: 100px;
+    */
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 1;
+    pointer-events: none;
+    /*color: red;*/
+}
+
+#voltage-report td {
+    padding-top: 5px;
+}
